@@ -106,6 +106,32 @@ section{
 	text-align: center;
 }
 
+/* contact form */
+.contact p{
+  margin: 2px;
+  color: white;
+  padding-left: 9px;
+}
+
+.contact form{
+  padding-left: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #5f19e0;
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+  background-color:#ffffff; ;padding-bottom: 10px;
+
+}
+
+.contact h2 {  
+    border-radius: 8px;
+    padding-left: 10px;
+   
+}
+
 footer{
 	border-top: 3px solid #fff0f0;
 	background: #4c8f97;

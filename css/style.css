@@ -100,6 +100,12 @@ section{
 	padding: 0 1%;
 }
 
+.sub{
+	background:#377a82;
+	font-size: 22px;
+	text-align: center;
+}
+
 footer{
 	border-top: 3px solid #fff0f0;
 	background: #4c8f97;

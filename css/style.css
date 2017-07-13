@@ -132,6 +132,20 @@ section{
    
 }
 
+/* collection */
+section{
+	display: flex;
+	flex-direction: column;
+}
+
+section ul{
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+
+
 footer{
 	border-top: 3px solid #fff0f0;
 	background: #4c8f97;

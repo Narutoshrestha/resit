@@ -132,6 +132,11 @@ section{
    
 }
 
+/* bio */
+
+
+	
+
 /* collection */
 section{
 	display: flex;
@@ -145,6 +150,13 @@ section ul{
 	justify-content: space-around;
 }
 
+
+
+
+
+
+
+/*  footer*/
 
 footer{
 	border-top: 3px solid #fff0f0;
@@ -166,3 +178,70 @@ footer{
 	width: 50%;
 	font-size: 20px;
 }
+
+/*making the webpage responsive using media queries*/
+
+@media all and (max-width: 800px)
+{
+	header{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.left{
+		width: 100%;
+	}
+	.left ul{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.center{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.right{
+		width: 100%;
+	}
+	.right ul{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.sub
+	{
+		font-size: 18px;
+	}
+	.lower
+	{
+		font-weight: normal;
+		font-size: 19px;
+		padding: 0 0.8%;
+
+	}
+	footer
+	{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.media
+	{
+		width: 100%;
+	}
+	.media ul
+	{
+		flex-direction: row;
+		justify-content: center;
+	}
+	.copyright
+	{
+		width: 100%;
+		font-size: 18px;
+		text-align: center;
+		font-weight: bolder;
+	}
+}
+
